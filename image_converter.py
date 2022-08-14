@@ -12,3 +12,4 @@ for file_name in file_names:
         img = Image.open(os.path.join(EXAMPLES_DIR, file_name))
         rgb_img = img.convert('RGB')
         rgb_img.save(os.path.join(EXAMPLES_DIR, '{}.jpg'.format(just_name)))
+        os.remove(os.path.join(EXAMPLES_DIR, file_name))
