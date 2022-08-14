@@ -6,7 +6,7 @@ from PIL import Image
 def convert_images(directory):
     file_names = os.listdir(directory)
     for file_name in file_names:
-        if file_name.endswith('.jpeg') or file_name.endswith('.png'):
+        if file_name.endswith('.jpeg') or file_name.endswith('.png') or file_name.endswith('.jpg'):
             print(file_name)
             just_name = '.'.join(file_name.split('.')[:-1])
             img = Image.open(os.path.join(directory, file_name))
