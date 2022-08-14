@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35c2357b-44e8-4edc-a601-ff40ef3cefa4" name="Changes" comment="Change to pomoq-dev in tldr">
+    <list default="true" id="35c2357b-44e8-4edc-a601-ff40ef3cefa4" name="Changes" comment="Add new images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_converter.py" afterDir="false" />
     </list>
@@ -44,7 +44,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.mp32wav">
+  <component name="RunManager" selected="Python.image_converter">
     <configuration name="image_converter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MakeItTalk" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mp32wav" />
         <item itemvalue="Python.image_converter" />
+        <item itemvalue="Python.mp32wav" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659366968305</updated>
       <workItem from="1659366971009" duration="89000" />
-      <workItem from="1659367063877" duration="1547000" />
+      <workItem from="1659367063877" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="Hobana">
       <created>1659367092457</created>
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659368422479</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add new images">
+      <created>1659369926075</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659369926075</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,10 +177,11 @@
     <MESSAGE value="Hobana" />
     <MESSAGE value="Add mp3 to wav converter" />
     <MESSAGE value="Change to pomoq-dev in tldr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change to pomoq-dev in tldr" />
+    <MESSAGE value="Add new images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new images" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MakeItTalk$image_converter.coverage" NAME="image_converter Coverage Results" MODIFIED="1659367922675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MakeItTalk$image_converter.coverage" NAME="image_converter Coverage Results" MODIFIED="1659370790637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MakeItTalk$mp32wav.coverage" NAME="mp32wav Coverage Results" MODIFIED="1659368188399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
