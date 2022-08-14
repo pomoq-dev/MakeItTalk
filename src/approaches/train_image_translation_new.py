@@ -428,10 +428,10 @@ class Image_translation_block():
         if(filename is None):
             filename = 'v'
         os.system('ffmpeg -loglevel error -y -i out.mp4 -i {} -pix_fmt yuv420p -strict -2 examples/{}_{}.mp4'.format(
-            'examples/'+filename[9:-16]+'.wav',
+            'examples/wav_files/'+filename[9:-16]+'.wav',
             prefix, filename[:-4]))
         print('Line: ', 'ffmpeg -loglevel error -y -i out.mp4 -i {} -pix_fmt yuv420p -strict -2 examples/{}_{}.mp4'.format(
-            'examples/'+filename[9:-16]+'.wav',
+            'examples/wav_files/'+filename[9:-16]+'.wav',
             prefix, filename[:-4]), file=sys.stderr)
         # os.system('rm out.mp4')
 
